@@ -1276,6 +1276,7 @@
 - whats new
 - whatsapp
 - yow are you
+- what do you ned?
 
 ## intent:ask_howold
 - Do you have friends the same age as you, if so, how old are they?
@@ -2258,7 +2259,7 @@
 - I would like to talk to someone from your sales team
 - i want to buy the enterprise edition
 - i would like rasa enterprise
-- purchase rasa enterprise 
+- purchase rasa enterprise
 - buy rasa enterprise
 - Ok I want to talk to your sales team immediately
 - Please connect me to someone from sales
@@ -3902,6 +3903,7 @@
 - please tell steps for installing chatbot
 - what do I need to install Rasa
 - what sould i do to install rasa
+- installation of rasa on windows
 
 ## intent:next_step
 - continue to next step
@@ -4923,12 +4925,6 @@
 - thx
 - yes thanks
 
-## lookup: location
-data/nlu/lookups/location.txt
-
-## lookup: product
-data/nlu/lookups/products.txt
-
 ## synonym: duration
 - how long
 - durations
@@ -4969,7 +4965,7 @@ data/nlu/lookups/products.txt
 
 ## synonym:entity recognition
 - ner
-- entity extraction 
+- entity extraction
 - Entity recognition
 - NER
 - recognition
@@ -5042,3 +5038,9 @@ data/nlu/lookups/products.txt
 
 ## regex:zipcode
 - [0-9]{5}
+
+## lookup:location.txt
+  data/nlu/lookups/location.txt
+
+## lookup:products.txt
+  data/nlu/lookups/products.txt
