@@ -145,8 +145,6 @@ slots:
     type: unfeaturized
   step:
     type: unfeaturized
-  suggestion:
-    type: unfeaturized
   unknown_nlu_part:
     type: unfeaturized
   unknown_product:
@@ -904,4 +902,3 @@ actions:
 forms:
 - sales_form
 - subscribe_newsletter_form
-- suggestion_form
